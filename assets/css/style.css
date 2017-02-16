@@ -15,11 +15,13 @@ h2.question {
     color: white;
     font-weight:600;
     padding: 20px;
+    text-shadow: -1px 1px 20px #000000;
 }
 
 div#gameContainer.container-fluid {
 	    background-color: rgba(0, 0, 0, 0.69);
 	    margin: 50px;
+	    box-shadow: 0 0 16px 0px black;
 	}
 
 button#startButton {
@@ -29,7 +31,7 @@ button#startButton {
 	font-weight:600;
 	background-color:transparent;
 	border:none;
-
+	text-shadow: -1px 0px 20px black;
 }
 
 button#startButton:hover {
@@ -38,11 +40,9 @@ button#startButton:hover {
 }
 
 div#displayContainer.container-fluid {
-		
-		margin: 50px;
-		height:100px;
-		align-content: center;
-
+		margin: 50px;
+		height:100px;
+		align-content: center;
 }
 
 div#timeRemainingCol.col-md-12 {
